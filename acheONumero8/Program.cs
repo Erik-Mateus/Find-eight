@@ -6,6 +6,7 @@ namespace acheOnumero8
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Digite a Quantidade de colunas e linhas da matriz");
             string[] ns = Console.ReadLine().Split(' ');
 
             int ns1 = int.Parse(ns[0]);
